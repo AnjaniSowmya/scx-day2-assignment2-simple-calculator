@@ -36,7 +36,16 @@
         </div>
         <div class="values">
           <input type="button" value="0" onclick="calc.display.value+='0'"id="" class="btns">
-          <input type="button" value="=" onclick="calc.display.value=eval(calc.display.value)" class="btnc">
+          <input type="button" value="=" onclick="result()" class="btnc">
+          function rslt()
+{
+    var x= document.getElementById("disp").value;
+    try{
+        document.getElementById("disp").value=eval(x);
+    }
+    catch(err){
+        document.getElementById("disp").value="Invalid Syntax";
+    }
           <input type="button" value="." onclick="calc.display.value+='.'"id="" class="btnop">
           <input type="button" value="/" onclick="calc.display.value+='/'"id="" class="btnop">
         </div>
