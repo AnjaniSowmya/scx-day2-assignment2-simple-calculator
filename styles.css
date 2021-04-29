@@ -24,7 +24,7 @@ input{
     display: flex;
     flex-direction: column;
     background: rgba(0, 0, 0, 0.308);
-    padding: 15px 25px;
+    padding: 15px 20px;
     border-radius: 25px;
     justify-content: center;
     align-content: center;
@@ -33,19 +33,12 @@ input{
 .output{
     display: flex;
     align-items: center;
-    margin-bottom: 4px;
-}
-.disp{
-    height: 50px;
-    outline: none;
-    border: none;
-    margin-left: 1px;
-    margin-right: 4px;
-    font-size: 20px;
-    padding: 0px 10px;
-    width: 150px;
-    border-radius: 2px;
-}
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 65px;
+    margin: 2px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 .btnc{
@@ -60,7 +53,6 @@ input{
     border-radius: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(235, 217, 60);
-    
 }
 .btns{
     outline: none;
@@ -73,7 +65,6 @@ input{
     cursor: pointer;
     border-radius: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
 }
 .btnop{
     outline: none;
