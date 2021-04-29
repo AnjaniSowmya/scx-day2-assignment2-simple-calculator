@@ -1,10 +1,10 @@
 function result()
 {
-    var x= document.getElementById("disp").value;
+    var x= document.getElementById("display").value;
     try{
-        document.getElementById("disp").value=eval(x);
+        document.getElementById("display").value=eval(x);
     }
     catch(err){
-        document.getElementById("disp").value="Invalid Syntax";
+        document.getElementById("display").value="Invalid Syntax";
     }
 }
